@@ -1,0 +1,29 @@
+.bookingList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingItems {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bookingItem {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.bookingButton {
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    margin-left: 160px;
+    margin-right: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.bookingGrid {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tableHeader {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.headerItemId {
+    font-weight: bold;
+    margin: 0 40px 0 40px ;
+}
+
+.headerItemStatus {
+    font-weight: bold;
+    margin: 0 40px 0 60px ;
+}
+
+.headerItemEstimate{
+    font-weight: bold;
+    margin: 0 0 0 60px;
+}
+
+
+.table {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    background-color: #ffffff;
+    border: solid 1px #ececec;
+}
+
+@media (max-width: 760px) {
+    .bookingGrid {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 70%;
+        margin-left: unset;
+    }
+}

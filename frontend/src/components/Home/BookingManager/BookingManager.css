@@ -1,0 +1,42 @@
+.newBooking {
+    width: 100%;
+    min-width: 400px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.headerText {
+    margin-top: 5px;
+    color: #0028ab;
+}
+
+.fromText {
+    color: darkred;
+    font-weight: bold;
+}
+
+.toText {
+    color: darkred;
+    font-weight: bold;
+}
+
+.fromContainer {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.toContainer {
+    margin-left: 10px;
+}
+
+#toLatitude {
+    font-weight: normal;
+}
+
+
+.toContainer label {
+    font-weight: normal;
+
+}

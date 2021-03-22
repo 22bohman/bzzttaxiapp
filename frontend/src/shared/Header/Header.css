@@ -1,0 +1,91 @@
+.navigationHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: inherit;
+    z-index: 900;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+}
+
+.logoContainer {
+    display: flex;
+    margin-left: 50px;
+}
+
+.logoName {
+    margin: 10px 0 0 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navigationContainer :hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+    padding-right: 15rem;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+
+    padding: 0 1.5rem;
+
+    color: #000;
+    transition: ease 0.2s;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.item {
+    text-decoration: none;
+
+    color: #000;
+    transition: ease 0.2s;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fixedTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 900;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    position: fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
